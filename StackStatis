@@ -1,0 +1,29 @@
+Ngoding = KESABARAN
+By DRAP
+
+public class StackStatis {
+    public static void main(String[] args){
+        
+        Stack S = new Stack();
+        S.createEmpty();
+        S.printStack();
+        
+        System.out.println("=======================================");
+        
+        S.push("E31201887", "Dimas Rizqi", 97.50);
+        S.push("E31200782", "Risky Laely", 87.50);
+        S.push("E41200058", "Tharixs Alibun", 82.50);
+        
+        S.printStack();
+        
+        System.out.println("=======================================");
+        
+        S.pop();
+        S.pop();
+        S.printStack();
+        
+        System.out.println("=======================================");
+        
+    }
+    
+}
